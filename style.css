@@ -444,8 +444,8 @@ body {
 }
 
 .artist-box img {
-    width: 95px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid rgb(232, 224, 224);

@@ -422,3 +422,56 @@ body {
     height: 100%;
     border: none;
 }
+/* ===== TRENDING ARTISTS SECTION ===== */
+.trending-artists {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.artist-box {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
+
+.artist-box:hover {
+    transform: scale(1.12);
+}
+
+.artist-box img {
+    width: 95px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgb(232, 224, 224);
+    transition: 0.3s;
+}
+
+.artist-box:hover img {
+    border-color: rgb(0, 0, 0);
+}
+
+.artist-box p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.cardyamsanii {
+    flex: 1 1 250px;
+    max-width: 330px;
+    padding: 20px;
+    background-color: #ffffff; /* card nyeupe */
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 250px; /* uniform height */
+    transition: all 0.3s ease;
+}
